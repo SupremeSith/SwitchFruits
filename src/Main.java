@@ -8,4 +8,5 @@ public class Main {
         String nomeProduto = s.next();
         System.out.println(nomeProduto);
     }
+
 }
