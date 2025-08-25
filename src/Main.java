@@ -7,6 +7,22 @@ public class Main {
 
         String nomeProduto = s.next();
         System.out.println(nomeProduto);
+
+        switch (nomeProduto) {
+            case "banana":
+                System.out.println("R$9,50");
+                break;
+
+            case "manga":
+                System.out.println("R$12,90");
+
+            case "limão":
+                System.out.println("R$6,90");
+
+            case "laranja":
+                System.out.println("R$7,90");
+        }
+
     }
 
 }
