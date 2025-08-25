@@ -5,7 +5,7 @@ public class Main {
         System.out.print("Digite o nome do produto");
         Scanner s = new Scanner((System.in));
 
-        String nomeProduto = s.next();
+        String nomeProduto = s.next().toLowerCase();
         System.out.println(nomeProduto);
 
         switch (nomeProduto) {
